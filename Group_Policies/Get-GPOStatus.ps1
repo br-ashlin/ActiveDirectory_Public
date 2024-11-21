@@ -22,7 +22,7 @@ Get-GPOStatus -GPO "Custom GPO" -ExportCSV
 Queries the specified GPO ("Custom GPO") for its modification dates and version number across all Domain Controllers and exports the results to a CSV file.
 
 .Inputs
-Requires the name of the GPO to query, which can be provided as input to the `-GPOName` parameter.
+Requires the name of the GPO to query, which can be provided as input to the `-GPO` parameter.
 
 .Parameter GPO
 This is a Mandatory parameter to the Display name of the Group Policy Object
